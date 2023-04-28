@@ -1,6 +1,6 @@
 {
   "name": "ts-changelog-demo",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A TypeScript demo project to understand commit and lint best practices.",
   "main": "src/index.ts",
   "scripts": {
