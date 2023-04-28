@@ -1,0 +1,35 @@
+{
+  "name": "ts-changelog-demo",
+  "version": "1.0.0",
+  "description": "A TypeScript demo project to understand standard-version, ESLint, Prettier and Husky.",
+  "main": "src/index.ts",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "clear": "rm -rf ./build",
+    "build": "npm run clear && npm run tsc",
+    "dev": "ts-node src/index.ts",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "release": "standard-version",
+    "prepare": "husky install"
+  },
+  "author": "Davide Pruscini",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.2",
+    "prettier": "2.8.8",
+    "standard-version": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.4"
+  },
+  "lint-staged": {
+    "*.{ts}": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
