@@ -1,5 +1,5 @@
-function hello(): void {
-    console.log("Hello World!");
+function hello(name: string): void {
+    console.log(`Hello ${name}!`);
 }
 
-hello();
+hello("Davide");
