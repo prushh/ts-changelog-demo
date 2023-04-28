@@ -6,3 +6,5 @@ A TypeScript demo project to understand the usage of the following packages:
 - [ESLint](https://github.com/eslint/eslint)
 - [Prettier](https://github.com/prettier/prettier)
 - [Husky](https://github.com/typicode/husky)
+- [Commit Lint](https://github.com/conventional-changelog/commitlint)
+- [Lint Staged](https://github.com/okonet/lint-staged)
