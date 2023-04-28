@@ -1,7 +1,7 @@
 {
   "name": "ts-changelog-demo",
   "version": "1.2.0",
-  "description": "A TypeScript demo project to understand some packages.",
+  "description": "A TypeScript demo project to understand commit and lint best practices.",
   "main": "src/index.ts",
   "scripts": {
     "tsc": "tsc -p tsconfig.json",
@@ -14,6 +14,10 @@
     "prepare": "husky install"
   },
   "author": "Davide Pruscini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prushh/ts-changelog-demo.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
