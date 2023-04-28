@@ -250,6 +250,7 @@ package*.json
 # Linter and Prettier files
 .eslintrc.json
 .prettierrc.json
+.commitlintrc.json
 
 # TypeScript config
 tsconfig.json
